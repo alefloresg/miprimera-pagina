@@ -1,0 +1,107 @@
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: #E8CBC0;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #636FA4, #E8CBC0);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #636FA4, #E8CBC0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    font-family: "Caveat", cursive;
+    font-size: 20px;
+    
+}
+header ul li{
+    margin: 20px;
+}
+img{
+    width: 200px;
+}
+body{
+    margin: 0;
+    background: #E8CBC0;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #636FA4, #E8CBC0);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #636FA4, #E8CBC0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+h1{
+    font-size: 60px;
+    color: midnightblue;
+    font-family: "Caveat", cursive;
+    
+}
+h2{
+ 
+    font-size: 50%;
+    color: rgb(42, 42, 146);
+    font-family: "Caveat", cursive;
+
+}
+h3{
+    font-size: 40px;
+    color: rgb(42, 42, 145);
+    font-family: "Caveat", cursive;
+}  
+p{
+    font-size: 20px;
+    color: rgb(17, 17, 19);
+    font-family: "Caveat", cursive;
+}
+h4{
+    font-size: 20px;
+    color: rgb(42, 42, 145);
+    font-family: "Caveat", cursive;
+}
+footer{
+
+    width: 100%;
+}
+.caja1{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background: #E8CBC0;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #636FA4, #E8CBC0);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #636FA4, #E8CBC0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}    
+.cajita1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.caja2{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 10px 0 10px 0;
+    background: #E8CBC0;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #636FA4, #E8CBC0);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #636FA4, #E8CBC0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.cajita{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.cajita img{
+    width: 300px;
+    border-radius: 20%;
+}
+.carrusel img{
+    width: 100px;
+    border-radius: 20%;
+}
